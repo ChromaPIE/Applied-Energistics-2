@@ -209,8 +209,16 @@ public enum GuiText {
 
     // Used in Crafting Toasts
     CraftingToastDone,
-    CraftingToastCancelled;
+    CraftingToastCancelled,
 
+    //Used in Lock Crafting,
+    CraftingLock,
+    NoneLock,
+    LowRedstoneLock,
+    HighRedstoneLock,
+    ResultLock,
+    UntilPulseUnlock;
+    
     private final String root;
 
     GuiText() {
