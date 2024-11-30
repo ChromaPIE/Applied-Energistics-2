@@ -217,7 +217,12 @@ public enum GuiText {
     LowRedstoneLock,
     HighRedstoneLock,
     ResultLock,
-    UntilPulseUnlock;
+    UntilPulseUnlock,
+  
+    // Used in Annihilation Planes
+    CanBeEnchanted,
+    IncreasedEnergyUseFromEnchants,
+    Deprecated;
     
     private final String root;
 
